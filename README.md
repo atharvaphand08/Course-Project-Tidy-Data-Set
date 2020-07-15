@@ -9,7 +9,7 @@ Explanation of R Code
 5. Only the measurements on the mean and standard deviation are extracted from merged data set.
    Meaning only variables/COLUMNS associated with measuring mean and standard deviation are selected.
    This is known as extracted data set.
-6. All the columns are converted to numeric type.
+6. All the columns are converted to numeric type for calaculation.
 7. Then that data set is splitted 2 times to obtain sets for each subject and each activity separately.
 8. The mean for each variable is calculated in loop for every data set.
 9. 30 subjects and 6 activities give 180 readings for all variables.
