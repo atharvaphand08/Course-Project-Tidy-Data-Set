@@ -1,5 +1,5 @@
-LIBRARIES : dplyr, stringr
-VARIABLES :
+*LIBRARIES : dplyr, stringr
+*VARIABLES :
 1. activity1 - chr [1:6] - contains all activity names
 2. i - numeric - A variable used for looping
 3. n - logi [1:668] - contains only good cases or good values from train and test text files
@@ -8,7 +8,7 @@ VARIABLES :
 6. y_train1 - int [1:7352] - to get all values of train labels (1 to 6) as a vector
 7. y1 - Named num [1:66] - a vector to store mean values of all variables each time during loop
 8. ext - chr [1:66] - contains names of all variables of final data set
-DATA :
+*DATA :
 ~ The variables - features, activity, t1, t2, y_train, y_test are used to read files from given data folder
 1. train - 7352 obs. of 561 variables
    initial train data set with train data
