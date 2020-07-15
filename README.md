@@ -3,11 +3,11 @@
 Explanation of R Code
 
 1. All features & activities are converted to a character vector. (1 for each)
-2. TRAIN tidy data set (ftrain) is created with all subject names, activity names and variale names.
-3. TEST tidy data set (ftest) is created with all subject names, activity names and variale names.
+2. TRAIN tidy data set (ftrain) is created with all subject names, activity names and variable names.
+3. TEST tidy data set (ftest) is created with all subject names, activity names and variable names.
 4. Both data sets are merged to get 1 combined tidy data set. (merged)
 5. Only the measurements on the mean and standard deviation are extracted from merged data set.
-   Meaning only variables/columns associated with measuring mean and standard deviation are selected.
+   Meaning only variables/COLUMNS associated with measuring mean and standard deviation are selected.
    This is known as extracted data set.
 6. All the columns are converted to numeric type.
 7. Then that data set is splitted 2 times to obtain sets for each subject and each activity separately.
